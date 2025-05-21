@@ -11,7 +11,8 @@
 
     <!-- insert form here-->
     <form action="thankyou.html" method="post">
-    <fieldset>
+          oninput="fn.value = firstname.value + ' ' + lastname.value">
+        <fieldset>
         <legend>Personal</legend>
         <label for="firstname">First Name</label>
         <input type="text" name="firstname" id="firstname"
@@ -35,9 +36,11 @@
          </select>
          <p>Add comments below</p>
              <textarea rows="6" cols="50" maxlength="255"></textarea>
-             <button name="showimage" onclick=""></button>
-             <input type="submit" name="submitform" value="Send it"
-    </form>
+             <button name="showimage" onclick="">Show image</button>
+             <input type="submit" name="submitform" value="Send it"/>
+   
+
+        </form>
     
 </body>
 </html>
