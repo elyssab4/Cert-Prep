@@ -12,6 +12,8 @@ h1,h2,h3,h4,h5,h6 {
 figcaption {
     color: #11ff25;
     font-weight: bold;
+    background-color: #AAEEFF;
+    display:inline;
     /*background-color: #AAEEFF;*/
 }
 .sale {
