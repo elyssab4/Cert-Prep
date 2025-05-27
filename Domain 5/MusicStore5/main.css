@@ -6,7 +6,11 @@ p {
     color: navy;
 }
 h1,h2,h3,h4,h5,h6 {
-     font-family:Helvetica, Arial, snas-serif;
+     font-family:Helvetica, Arial, sans-serif;
+     font-variant: small-caps;
+}
+h1 {
+    font-size: 18pt;
 }
 
 figcaption {
@@ -21,6 +25,10 @@ figcaption {
     background-color: #AAEEFF;
     font-style:italic;
     font-size: 16pt;
+}
+.leftindent {
+    /*text-indent: 5em;*/
+    padding-left: 5em
 }
 #sidenote {
     background-color: #DDDDDD;
