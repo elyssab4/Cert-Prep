@@ -14,7 +14,7 @@ h1 {
 }
 
 figcaption {
-    color: #11ff25;
+    color: #768bff;
     font-weight: bold;
     background-color: #AAEEFF;
     display:inline;
@@ -33,7 +33,7 @@ figcaption {
 #sidenote {
     background-color: #DDDDDD;
     display: inline;
-    font-weight:500;
+    font-weight:bold;
 }
 a {
     text-decoration: none;
