@@ -32,6 +32,7 @@ figcaption {
 }
 #sidenote {
     background-color: #DDDDDD;
+    display: inline;
 }
 a {
     text-decoration: none;
